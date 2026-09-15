@@ -13,3 +13,24 @@ Trace2:
 Trace3:
 Not an A
 done
+
+############
+
+Results
+Trace1:
+3
+3.5
+3.0
+    Did the calculations correct, but didn't add the decimal to indicate it's a double now
+0.5
+0.30000000000000004
+    Did not account for the values being floating point numbers
+
+Trace2:
+10
+    The error was a misread. I forgot about the i in the incrementation and just added the bare += (1) every time 
+-1
+
+Trace3:
+done
+    Again, a misread. I didn't notice the lack of curly braces around the conditional.
