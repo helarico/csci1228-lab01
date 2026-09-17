@@ -34,3 +34,7 @@ Trace2:
 Trace3:
 done
     Again, a misread. I didn't notice the lack of curly braces around the conditional.
+
+Looking at the diff before the commit is useful because it can show you 
+precisely what changed in this version of the project, which can help you make 
+a more precise commit message for the record.
